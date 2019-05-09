@@ -62,8 +62,13 @@ $ sudo cp *.a /usr/lib
 
 $ mkdir build && cd build
 
-$ cmake .. -DCMAKE_BUILD_TYPE=Debug && make
+$ cmake .. -DCMAKE_BUILD_TYPE=Release && make
 
+Or 
+
+$ mkdir build && cd build
+
+$ cmake .. -DCMAKE_BUILD_TYPE=Debug && make
 
 2.2 To execute the direct fourier transform (once configured and built), execute the following command (also assumes appropriate build folder):
 
